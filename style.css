@@ -51,7 +51,7 @@ ul li img {
   margin-bottom: 5px;
 }
 .google {
-  width: 250px;
+  width: 280px;
   height: 100px;
   background-color: #ffffff;
   margin-left: auto;
@@ -102,4 +102,23 @@ p {
   font-size: 16px;
   color: #52525a;
   line-height: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .descktop {
+    height: auto;
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  .containerLeft {
+    padding-left: 0;
+    padding-bottom: 50px;
+  }
+  .containerRight {
+    width: auto;
+    justify-content: center;
+  }
+  .google {
+    margin: auto;
+  }
 }
